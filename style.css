@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', cursive;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+/* Top Section */
+
+#top{
+    width: 100%;
+    height: 55%;
+    background-image: url(imgs/topImg.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: red; */
+}
+
+#overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+#text{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 20%;
+    width: 100%;
+    /* height: 120px; */
+    padding: 0 10vw;
+    color: #fff;
+    /* background-color: rebeccapurple; */
+}
+
+#textRight{
+    align-items: center;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#textRight i{
+    font-size: 24px;
+    color: #2d2d2d;
+    background-color: #f0f0f0;
+    border-radius: 120px;
+    border: none;
+    padding: 12px 12px;
+    margin-left: 0.3vw;
+}
+
+#textRight p{
+    font-size: 16px;
+    width: 40%;
+}
+
+#text h1{
+    font-size: 5vw;
+    font-weight: 500;
+}
+
+/* Bottom Section */
+
+#bottom{
+    width: 100%;
+    height: 45%;
+    /* background-color: blue; */
+    display: flex;
+}
+
+/* Bottom Categories */
+
+#bottomOne{
+    width: 20%;
+    height: 100%;
+    padding: 80px 60px;
+    /* background-color: aliceblue; */
+}
+
+.htext{
+    padding-bottom: 60px;
+    font-size: 42px;
+    color: #2d2d2d;
+}
+
+.btext{
+    font-size: 32px;
+    color: #7a7a7a;
+}
+
+#iconButtons{
+    padding-top: 60px;
+    /* background-color: red; */
+}
+
+.iconButton{
+    font-size: 24px;
+    color: #2d2d2d;
+    background-color: #f0f0f0;
+    border-radius: 120px;
+    border: none;
+    padding: 4px 6px;
+}
+
+#bottomTwo{
+    width: 25%;
+    height: 100%;
+    background-image: url(imgs/bottomTwo.jpg);
+    background-size: cover;
+    /* background-color: aqua; */
+}
+
+.playBtn{
+    position: relative;
+    top: 45%;
+    left: 45%;
+    font-size: 60px;
+    color: #fff;
+    /* background-color: transparent; */
+}
+
+#overlayTwo{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.573);
+}
+
+#bottomThree{
+    width: 25%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+#bThreeOne{
+    width: 100%;
+    height: 50%;
+    padding: 20px 60px;
+    background-color: #4d0090;
+}
+
+.hthreetext{
+    padding-bottom: 32px;
+    font-size: 42px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.bthreetext{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 200;
+}
+
+#bThreeTwo{
+    width: 100%;
+    height: 50%;
+    background-image: url(imgs/bthreetwo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#bottomFour{
+    width: 30%;
+    height: 100%;
+    background-color: #1e1e1e;
+}
